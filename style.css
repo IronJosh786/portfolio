@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --padding-inline-section: 20px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.one-page-height{
+    height: 100vh;
+}
+
+.custom-page-height{
+    height: 46vh;
+}
+
+.container{
+    display: flex;
+    flex: 1;
+    max-width: 80%;
+    margin-inline: auto;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.navbar{
+    justify-content: space-between;
+    height: 15vh;
+}
+
+.links{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.link{
+    color: black;
+}
+
+.link:hover{
+    color: #7510F7;
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
+
+.secondary-btn{
+    border: 2px solid #7510F7;
+    border-radius: 20px 20px 20px 20px;
+    color: #7510F7;
+    padding: 10px;
+}
+
+.secondary-btn:hover{
+    background-color: #7510F7;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.hero{
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    height: 85vh;
+    text-align: center;
+}
+span{
+    color: #7510F7;
+    font-weight: 700;
+}
+#profile-photo{
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+}
+
+.second-section{
+    background-color: #7510F7;
+    color: white;
+}
+
+.projects, .skills{
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    height: 50vh;
+    width: 100%;
+    padding-top: 16px;
+}
+
+.project1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.project1-photo{
+    height: 250px;
+    width: 40%;
+    overflow: hidden;
+    border: 2px solid white;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.project1-photo > img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    transition: all ease 0.5s;
+}
+
+.project1-photo:hover > img{
+    scale: 1.2;
+}
+
+.project1-info{
+    width: 50%;
+}
+
+.project1-info > a{
+    font-size: 1rem;
+    color: white;
+    margin-top: 1rem;
+    transition: 0.5s ease-in-out;
+}
+
+.project1-info > a:hover{
+    scale: 1.2;
+}
+
+.skill{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+.individual-skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.individual-skill > i:hover{
+    scale: 1.5;
+    transition: 0.5s all ease;
+}
+
+.third-section{
+    padding-top: 1rem;
+}
+
+.connections{
+    flex-direction: column;
+    height: 40vh;
+    justify-content: space-between;
+}
+
+.connection-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.connection-box > p{
+    text-align: center;
+}
+
+.connect{
+    display: flex;
+    gap: 2rem;
+}
+
+.connect > a{
+    color: black;
+}
+
+.last-section{
+    background-color: #F8F9FA;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 0;
+}
+
+.quote > p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    text-align: center;
+    color: white;
+    background-color: #7510F7;
+    margin-top: 0;
+    font-size: 1rem;
+}

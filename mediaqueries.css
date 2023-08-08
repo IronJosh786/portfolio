@@ -1,0 +1,191 @@
+@media screen and (max-width: 991px){
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    a{
+        font-size: 0.9rem;
+    }
+    #profile-photo{
+        height: 250px;
+        border-radius: 50%;
+        border: 2px solid black;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .links{
+        gap: 20px;
+    }
+    .skills{
+        gap: 1.5rem;
+    }
+    .skill{
+        gap: 1.5rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    a{
+        font-size: 0.9rem;
+    }
+    .navbar{
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 1rem;
+    }
+    .secondary-btn{
+        border: 0;
+        text-decoration: underline;
+        color: #7510f7;
+        padding: 0;
+    }
+    .secondary-btn:hover{
+        background-color: white;
+        color: #7510f7;
+    }
+    .hero{
+        gap: 0.5rem;
+        margin-top: 0;
+    }
+    #logo-image{
+        height: 30px;
+        margin-top: 10px;
+    }
+    #profile-photo{
+        height: 180px;
+        border-radius: 50%;
+        border: 2px solid black;
+    }
+    .projects{
+        height: 70vh;
+        gap: 1rem;
+        padding-top: 0;
+    }
+    .project1-info > a{
+        margin-top: 0;
+    }
+    .project1{
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 1rem;
+        margin: 0;
+    }
+    .project1-photo{
+        width: 70%;
+        height: 200px;
+    }
+    .project1-info{
+        width: 100%;
+        text-align: center;
+    }
+    .skills{
+        height: 30vh;
+        gap: 1rem;
+    }
+    .skill{
+        gap: 1.5rem;
+        margin-top: 1rem;
+    }
+    .fa-2xl{
+        font-size: 20px !important;
+    }
+    .quote > p{
+        font-weight: 300;
+        font-size: 1rem;
+    }
+    footer{
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 479px){
+    h1{
+        font-size: 1.2rem;
+    }
+    h2{
+        font-size: 1.1rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+    a{
+        font-size: 0.8rem;
+    }
+    #logo-image{
+        height: 30px;
+        margin-top: 10px;
+    }
+    .hero{
+        gap: 0.5rem;
+    }
+    .hero > h1{
+        margin-top: 1rem;
+    }
+    .hero > p{
+        margin-top: 1rem;
+    }
+    #profile-photo{
+        /* height: 150px; */
+        margin: 0;
+    }
+    .projects{
+        height: 70vh;
+        gap: 1rem;
+        padding-top: 0.5rem;
+    }
+    .project1-info > p{
+        font-size: 12px;
+    }
+    .project1-info > a{
+        font-size: 12px;
+    }
+    .project1-photo{
+        width: 90%;
+        height: 150px;
+    }
+    .skills{
+        height: 30vh;
+    }
+    .individual-skill > p{
+        font-size: 10px;
+    }
+    .third-section{
+        height: 60vh;
+    }
+    .connections{
+        justify-content: space-evenly;
+        height: 100%;
+    }
+    .connection-box{
+        gap: 1.5rem;
+    }
+    .last-section{
+        height: 32vh;
+    }
+}
+@media screen and (max-width: 330px) {
+    #profile-photo{
+        height: 100px;
+    }
+}
